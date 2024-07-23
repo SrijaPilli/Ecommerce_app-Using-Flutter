@@ -21,38 +21,61 @@ models/
 Contains data models for the application.
 
 product.dart: Defines the Product model which represents a product in the store.
+<br>
 user.dart: Defines the User model which represents a user in the application.
+<br>
 providers/
 Contains the state management logic for the application.
+<br>
 
 product_provider.dart: Manages the state for product data including fetching product lists and handling infinite scrolling.
+<br>
 search_provider.dart: Manages the state for product search functionality.
+<br>
 auth_provider.dart: Manages the state for user authentication including login and registration.
+<br>
 cart_provider.dart: Manages the state for the shopping cart, including adding and removing items from the cart.
+<br>
 services/
 Contains services for API interactions.
+<br>
 
 api_service.dart: Handles communication with the Fake Store API for fetching product data.
+<br>
 auth_service.dart: Manages user authentication logic such as login and registration.
+<br>
 screens/
 Contains the UI screens of the application.
+<br>
 
 homepage.dart: Displays the homepage with infinite scrolling of products.
+<br>
 product_detail_page.dart: Shows the details of a selected product.
+<br>
 search_page.dart: Displays the search results for products.
+<br>
 login_page.dart: Provides the user interface for user login.
+<br>
 register_page.dart: Provides the user interface for user registration.
+<br>
 cart_page.dart: Displays the shopping cart with items added by the user.
+<br>
 widgets/
 Contains reusable UI components.
+<br>
 
 product_item.dart: Represents a single product item in a list or grid.
+<br>
 search_bar.dart: Provides a search bar widget for product search.
+<br>
 cart_item.dart: Represents a single item in the shopping cart.
+<br>
 utils/
 Contains utility classes and constants.
+<br>
 
 constants.dart: Defines application-wide constants such as API endpoints, styles, and other configurations.
+<br>
 Getting Started
 To get started with this project, follow the steps below:
 
