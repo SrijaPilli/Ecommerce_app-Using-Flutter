@@ -99,15 +99,23 @@ flutter run
 The project uses the following dependencies:
 
 provider: For state management.
+<br>
 http: For making HTTP requests.
+<br>
 flutter_secure_storage: For securely storing user credentials.
+<br>
 API
 The application uses the Fake Store API to fetch product data. Ensure you have an active internet connection to interact with the API.
 
 ## Features
 Homepage with Infinite Scrolling: Browse products with continuous scrolling.
+<br>
 Product Detail Page: View detailed information about a product.
+<br>
 Product Search Functionality: Search for products by name or category.
+<br>
 User Authentication: Register and log in to your account.
+<br>
 Product Sorting Functionality: Sort products by price, popularity, etc.
+<br>
 Cart Functionality: Add and remove products from the shopping cart.
